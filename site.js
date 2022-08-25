@@ -13,10 +13,6 @@ var person = prompt("Pick a random name (no spaces)");
 var char_name = document.getElementById("char_name");
 char_name.innerHTML = " " + person +"";
 
-var have = prompt("Enter a past tense action (no capitals or spaces)");
-var past_verb = document.getElementById("past_verb");
-past_verb.innerHTML = "" + have +"";
-
 var char2 = prompt("Enter one more name (no spaces)");
 var othr_char = document.getElementById("othr_char");
 othr_char.innerHTML = "" + char2 +"'s";
