@@ -1,7 +1,7 @@
-alert("Quick Reveiw: Adjective- Descriptive word (Fluffy, Spikey, Crazy)) \n
-      ("Noun- A Person, Place, or Thing (Burger, Chick-Fil-A, The Queen)") \n
-      ("Plural Noun- More Than One of Any Person, Place, or Thing (Children, Tree's, Restaurant's)")
-alert("Now, there are A LOT of questions coming up, good luck soldier!")
+alert("Quick Reveiw: Adjective- Descriptive word (Fluffy, Spikey, Crazy)")
+alert("Quick Review: Noun- A Person, Place, or Thing (The Queen, Chick-Fil-A, Burger)")
+alert("Quick Review: Plural Noun- More Than One of Any Person, Place, or Thing (Children, Restaurant's, Tree's)")
+alert("Now, there are A LOT of questions coming up, so good luck soldier!")
 alert("Also I recommend useing more funny answers than serious ones")
        
 var start = prompt("write one adjective (Don't capitalise or use spaces)");
