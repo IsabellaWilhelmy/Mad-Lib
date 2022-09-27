@@ -42,6 +42,10 @@ var collect2 = document.getElementById("collect2");
 collect2.innerHTML = "" + cole2 +"";
 
 var worlds = prompt("Enter a random number between 1-50 (no spaces)");
+if (worlds > 50 || worlds < 1) {
+  alert("Sorry you went over 50 or below 1, so you will get a random number between 1-50");
+  worlds = return Math.floor(Math.random() * (50 - 1 + 1) + 1);
+}
 var number = document.getElementById("number");
 number.innerHTML = "" + worlds +"";
 
