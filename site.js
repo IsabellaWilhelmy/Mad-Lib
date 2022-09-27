@@ -1,7 +1,7 @@
 alert("There are A LOT of questions coming up, good luck soldier!")
 alert("Also I recommend useing more funny answers than serious ones")
 
-var start = prompt("write one adjective (Don't capitalise or use spaces)");
+var start = prompt("write one adjective Exp: Fluffy, Light, Crazy (Don't capitalise or use spaces)");
 var adj_one = document.getElementById("adj_one");
 adj_one.innerHTML = "" + start +"";
 
